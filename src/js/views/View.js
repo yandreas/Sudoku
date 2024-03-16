@@ -1,3 +1,1 @@
-export default class View {
-  render(data) {}
-}
+export default class View {}
