@@ -1,1 +1,0 @@
-vendors contains any third-party stylesheets a project uses. For instance, if we wanted to use Bootstrap alongside our own custom Sass in a project, we'd download the Bootstrap stylesheet and place it here. (\_bootstrap.scss)

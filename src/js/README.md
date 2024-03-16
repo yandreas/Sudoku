@@ -1,2 +1,0 @@
-MVC (Model-View-Controller) architecture: view->render html, controller->api between view and model, model->data/logic,
-config->config variables like urls or api keys, helpers->reusable helper functions like getJSON or timers
