@@ -1,0 +1,21 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "sudoku project",
+  "default": "index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "author": "Andreas Meier",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.12.0",
+    "@parcel/transformer-sass": "^2.12.0",
+    "@parcel/transformer-webmanifest": "^2.12.0",
+    "sass": "^1.71.0"
+  },
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}

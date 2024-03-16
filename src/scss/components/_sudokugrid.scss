@@ -1,0 +1,25 @@
+.sudoku {
+  display: grid;
+  min-width: 50rem;
+  min-height: 50rem;
+  background-color: $color-white;
+  border-radius: 1rem;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  &__part {
+    border: 0.1rem solid $color-black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  &__cell {
+    background-color: $color-white;
+    border: 0.1rem solid $color-black;
+    display: grid;
+    place-items: center;
+    transition: scale 1s ease-in-out;
+  }
+}

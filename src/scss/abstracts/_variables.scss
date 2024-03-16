@@ -1,0 +1,21 @@
+//colors
+$color-black: black;
+$color-white: white;
+$color-hover: rgb(89, 152, 163);
+$color-text: rgb(17, 0, 255);
+
+//gradient
+$gradient-bg: linear-gradient(to right top, #757e27, #ccb740 80%);
+$gradient-body: linear-gradient(135deg, rgb(14, 83, 88), rgb(229, 176, 161));
+//shadow
+$shadow-bg: drop-shadow(0 0 0.5rem $color-white);
+
+$color-win: linear-gradient(
+  to right,
+  orange,
+  yellow,
+  green,
+  cyan,
+  violet,
+  blue
+);

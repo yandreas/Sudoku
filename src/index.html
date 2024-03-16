@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
+
+    <link rel="stylesheet" href="scss/main.scss" />
+
+    <script type="module" src="js/controller.js"></script>
+
+    <title>Sudoku</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="sudoku prevent-select">
+        <div class="sudoku__part top-left">
+          <div class="sudoku__cell top-left"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+        </div>
+        <div class="sudoku__part">
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+        </div>
+        <div class="sudoku__part top-right">
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell top-right"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+        </div>
+        <div class="sudoku__part">
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+        </div>
+        <div class="sudoku__part">
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+        </div>
+        <div class="sudoku__part">
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+        </div>
+        <div class="sudoku__part bottom-left">
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell bottom-left"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+        </div>
+        <div class="sudoku__part">
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+        </div>
+        <div class="sudoku__part bottom-right">
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell"></div>
+          <div class="sudoku__cell bottom-right"></div>
+        </div>
+      </div>
+      <div class="game-state prevent-select hidden">   
+          <p>You win</p>
+    </section>
+  </body>
+</html>

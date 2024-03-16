@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 10rem;
+  background: $color-win;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span {
+  font-size: 4rem;
+  color: $color-text;
+}

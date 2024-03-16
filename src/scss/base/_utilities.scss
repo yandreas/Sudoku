@@ -1,0 +1,36 @@
+.bottom-left {
+  border-bottom-left-radius: 0.5rem;
+}
+
+.bottom-right {
+  border-bottom-right-radius: 0.5rem;
+}
+
+.top-left {
+  border-top-left-radius: 0.5rem;
+}
+
+.top-right {
+  border-top-right-radius: 0.5rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.enlargen {
+  transform: scale(1.2);
+  border: 0.1rem solid $color-hover !important;
+}
+
+.locked {
+  span {
+    color: $color-black !important;
+  }
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
