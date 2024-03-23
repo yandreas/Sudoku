@@ -13,7 +13,7 @@ const controlSudoku = async function () {
 };
 
 const controlInput = function (key, position) {
-  [one, two] = JSON.parse(position);
+  const [one, two] = JSON.parse(position);
   model.changeValue(key, one, two);
   model.compareArrays();
 
