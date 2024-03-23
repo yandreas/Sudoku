@@ -38,12 +38,10 @@ class cellView extends View {
 
       if (e.key === 'Backspace') {
         activeCell.innerHTML = `<span></span>`;
-
         changeValue(0, activeCell.dataset.pos);
       }
     });
   }
-
 }
 
 export default new cellView();

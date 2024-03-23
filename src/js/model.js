@@ -15,11 +15,10 @@ export const compareArrays = function () {
   }
 
   state.mistakes = mistakes;
-  console.log(state.mistakes);
 };
 
-export const changeValue = function (key) {
-  state.sudokuArray.value[+one][+two] = key;
+export const changeValue = function (key, one, two) {
+  state.sudokuArray.value[one][two] = key;
 };
 
 const createSudoku = function (data) {
